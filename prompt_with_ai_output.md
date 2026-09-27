@@ -1,4 +1,4 @@
-# Full prompt and AI output log
+﻿# Full prompt and AI output log
 
 Trích xuất từ lịch sử thread hiện tại theo múi giờ Asia/Ho_Chi_Minh. Mỗi mục gồm prompt người dùng và các output AI hiển thị trong cùng lượt. Các system/developer message, reasoning nội bộ và raw tool output không được đưa vào.
 
@@ -6112,3 +6112,105 @@ Các thay đổi khác trong repository không được đưa vào commit.
 - Ghi chú giới hạn timestamp của các lượt cũ.
 
 Chưa commit/push thay đổi mới này lên Git.
+
+## 14:25 27/09/2026
+
+### Prompt người dùng
+
+Mục 3 AI Audit Report trong mẫu cần làm gì?
+
+### Output AI
+
+Mục 3 là phần AI Audit Report bắt buộc, dùng để chứng minh AI đã hỗ trợ artifact nào và sinh viên đã kiểm tra, đánh giá và sửa kết quả AI ra sao. Mỗi artifact do AI hỗ trợ phải có đủ 5 phần: (1) Prompt + tool + timestamp; (2) toàn bộ output AI; (3) Verdict VALID/INVALID/INCOMPLETE; (4) Reasoning dựa trên ISTQB hoặc tài liệu môn học; (5) Student fix, tức bản sửa cuối cùng của sinh viên. Cuối report phải tính tỷ lệ VALID/INVALID/INCOMPLETE và kết luận khi nào nên hoặc không nên dùng AI.
+
+Đã ghi log
+
+## 14:31 27/09/2026
+
+### Prompt người dùng
+
+File [AI-02] - FIT@HCMUS - AI Audit Report_Vn_filled.docx: D:/vscode/Software testing/HW#01 - Job Description/[AI-02] - FIT@HCMUS - AI Audit Report_Vn_filled.docx
+
+Phần Prompt và AI Output đã có trong file prompt log .md rồi, cũng có file AI02 về audit report thì có thể đưa phần audit này ra file riêng này thay vì ghi thẳng trong report không
+
+### Output AI
+
+Có thể giữ file AI-02 riêng để làm phụ lục, nhưng theo yêu cầu nộp bài thì nội dung đó vẫn phải được đính kèm trong Main Report PDF dưới mục “AI Audit Report” hoặc “Appendix A”. File prompt log .md chỉ là bằng chứng đầy đủ về prompt và output; nó không thay thế mục AI Audit Report trong Main Report. Cách phù hợp là dùng file AI-02 để soạn phần audit, sau đó chèn toàn bộ nội dung cần thiết của file đó vào cuối report.docx và xuất report.docx thành Main Report PDF. Có thể nộp thêm file AI-02 riêng nếu muốn, nhưng file chính vẫn phải chứa mục này.
+
+Đã ghi log
+
+## 14:37 27/09/2026
+
+### Prompt người dùng
+
+File [AI-02] - FIT@HCMUS - AI Audit Report_Vn_filled.docx: D:/vscode/Software testing/HW#01 - Job Description/[AI-02] - FIT@HCMUS - AI Audit Report_Vn_filled.docx
+
+Bắt đầu update nội dung cho file chuẩn với những gì đã làm trong phiên trò chuyện này.
+
+### Output AI
+
+Đã cập nhật bản làm việc của AI-02 với các nội dung Requirement 3 đã thực hiện trong phiên: bộ test case nền tảng cho LYMAX L1 Plus, edge case remote mất độ bám, edge case màn hình cong, edge case bụi dễ nhìn thấy khi bật đèn và việc cập nhật Actual/Verdict TC01–TC12. Bản audit hiện có 15 artifact, gồm 4 VALID, 2 INVALID và 9 INCOMPLETE. Do file gốc đang bị Word/WPS khóa, nội dung được lưu tạm tại `[AI-02] - FIT@HCMUS - AI Audit Report_Vn_filled_updated.docx`; file gốc chưa bị ghi đè. Kiểm tra cấu trúc và nội dung đã hoàn tất; render trực quan chưa thực hiện được vì môi trường không có LibreOffice.
+
+Đã ghi log
+
+## 14:45 27/09/2026
+
+### Prompt người dùng
+
+Hãy sửa Artifact #13 và Artifact #14 để xác nhận đó là ý tưởng/quan sát do sinh viên tự phát hiện và chuẩn hóa cách ghi trong tài liệu/Excel. Cách ghi hiện tại dễ bị hiểu nhầm là sinh viên không tự tìm ra hai case đó.
+
+### Output AI
+
+Đã sửa Artifact #13 và Artifact #14 trong bản AI-02 đang cập nhật. Nội dung mới ghi rõ: đây là edge case do sinh viên tự phát hiện bằng quan sát/thử nghiệm thực tế; AI không tự tìm ra hai tình huống này mà chỉ hỗ trợ diễn đạt và chuẩn hóa thành test case trong Excel. Hai dòng cũng được thêm nhãn “Student-defined edge case”.
+
+Đã ghi log
+
+## 14:54 27/09/2026
+
+### Prompt người dùng
+
+Báo cáo và các bản nháp phân tích trong HW01 được sinh phiên bản đầu bởi ChatGPT/Codex; tôi đã rà soát và chỉnh sửa phần JD, CVE, mức độ nghiêm trọng, hậu quả, giải pháp, hyperlink và AI Hallucination Analysis; screenshot tài khoản, prompt log, thông tin cá nhân và việc kiểm tra nguồn do tôi tự thực hiện. Tôi cam đoan không dùng AI để tạo screenshot anti-cheat hoặc các bằng chứng thực nghiệm bị cấm.
+
+Prompt log do bạn tạo, không phải do tôi, sửa đi.
+
+### Output AI
+
+Đã sửa phần Mandatory Disclosure trong bản AI-02: prompt log hiện được mô tả là do ChatGPT/Codex hỗ trợ tổng hợp từ lịch sử phiên, còn sinh viên rà soát nội dung log trước khi sử dụng. Screenshot tài khoản, thông tin cá nhân và việc kiểm tra nguồn vẫn được ghi là do sinh viên tự thực hiện.
+
+Đã ghi log
+
+## 14:56 27/09/2026
+
+### Prompt người dùng
+
+Phần này có yêu cầu Prompt log .md with timestamps phải làm thủ công à?
+
+### Output AI
+
+Đúng. Theo ảnh đề bài, “Prompt log .md with timestamps for every AI prompt you sent” nằm trong nhóm Anti-AI-Cheat mechanisms và các artifact này MUST NOT be AI-generated. Vì vậy, bản prompt log nộp chính thức phải do sinh viên tự lập hoặc ít nhất tự copy, kiểm tra và xác nhận từ lịch sử thật; mỗi prompt phải có timestamp chính xác. AI không được tự bịa prompt, output hoặc thời gian. File log hiện do AI hỗ trợ tổng hợp nên không nên nộp nguyên trạng nếu đề được áp dụng đúng theo nghĩa literal. Cách an toàn là dùng Copy as Markdown/lịch sử chat làm dữ liệu gốc, tự đối chiếu từng mốc giờ và tự hoàn thiện file .md; AI chỉ có thể hỗ trợ kiểm tra định dạng nếu giảng viên cho phép, nhưng sinh viên phải tự chịu trách nhiệm về bản cuối.
+
+Đã ghi log
+
+## 15:00 27/09/2026
+
+### Prompt người dùng
+
+File prompt log mới nhất là file nào?
+
+### Output AI
+
+File prompt log mới nhất đang được cập nhật là `C:\Users\tung1\OneDrive\Desktop\prompt_with_ai_output.md`. File này được cập nhật lúc 14:56 27/09/2026. File trong repository `D:\vscode\Software testing\prompt_with_ai_output.md` đang cũ hơn và chưa đồng bộ với bản Desktop. Lưu ý: bản Desktop hiện là bản do AI hỗ trợ tổng hợp, nên cần bạn tự đối chiếu và xác nhận lại trước khi nộp theo quy định Anti-AI-Cheat.
+
+Đã ghi log
+
+## 15:01 27/09/2026
+
+### Prompt người dùng
+
+Lịch sử của các ngày khác đâu, sao lại còn mỗi ngày hôm nay thôi vậy?
+
+### Output AI
+
+Đã kiểm tra hai bản log. Bản Desktop bị rút gọn và chỉ còn các mục ngày 27/09/2026; bản trong repository vẫn còn lịch sử đầy đủ từ 24/09/2026 đến 26/09/2026. Tôi đã khôi phục bản Desktop bằng cách ghép lịch sử cũ từ repository với các mục ngày 27/09/2026 đang có, đồng thời cập nhật bản repository cho đồng bộ.
+
+Đã ghi log

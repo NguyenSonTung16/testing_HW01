@@ -1,0 +1,48 @@
+* commit 0de71fef53c5fbfab9d8c281faf00f0ce24ce9f1
+| Author: NguyenSonTung16 <162577055+NguyenSonTung16@users.noreply.github.com>
+| Date:   Sun Sep 27 13:56:21 2026 +0700
+| 
+|     Add Requirement 3 test cases and updated report log
+| 
+|  HW#01 - Job Description/report.docx               | Bin 3618136 -> 3675414 bytes
+|  ...Requirement3_TestCases_LYMAX_L1_Plus_TC15.xlsx | Bin 0 -> 15603 bytes
+|  prompt_with_ai_output.md                          | 714 ++++++++++++++++++++
+|  3 files changed, 714 insertions(+)
+| 
+* commit be32c8b835e698d62074751e3b535923fe4595e8
+| Author: NguyenSonTung16 <162577055+NguyenSonTung16@users.noreply.github.com>
+| Date:   Sun Sep 27 13:01:17 2026 +0700
+| 
+|     Update Requirement 3 report and add prompt log
+| 
+|  HW#01 - Job Description/report.docx |  Bin 2011675 -> 3618136 bytes
+|  prompt_with_ai_output.md            | 5400 +++++++++++++++++++++++++++++++++
+|  2 files changed, 5400 insertions(+)
+| 
+* commit 2d9bfccd910395a3ce119ae4a3f9d956d2ff2379
+| Author: NguyenSonTung16 <162577055+NguyenSonTung16@users.noreply.github.com>
+| Date:   Sat Sep 26 21:22:11 2026 +0700
+| 
+|     Normalize AI audit prompt fields
+| 
+|  ...] - FIT@HCMUS - AI Audit Report_Vn_filled.docx | Bin 30153 -> 30098 bytes
+|  1 file changed, 0 insertions(+), 0 deletions(-)
+| 
+* commit 6e4e7d1a3e7002459fe081d50340615f2b07ddbe
+| Author: NguyenSonTung16 <162577055+NguyenSonTung16@users.noreply.github.com>
+| Date:   Sat Sep 26 21:20:04 2026 +0700
+| 
+|     Add prompt time fields to AI audit report
+| 
+|  ...] - FIT@HCMUS - AI Audit Report_Vn_filled.docx | Bin 30032 -> 30153 bytes
+|  1 file changed, 0 insertions(+), 0 deletions(-)
+| 
+* commit bce537ff13b8fecd521b28c0fa347da2a72d20a1
+  Author: NguyenSonTung16 <162577055+NguyenSonTung16@users.noreply.github.com>
+  Date:   Sat Sep 26 21:17:14 2026 +0700
+  
+      Add HW01 Requirement 1 and 2 reports
+  
+   ...02] - FIT@HCMUS - AI Audit Report_Vn_filled.docx | Bin 0 -> 30032 bytes
+   HW#01 - Job Description/report.docx                 | Bin 0 -> 2011675 bytes
+   2 files changed, 0 insertions(+), 0 deletions(-)
